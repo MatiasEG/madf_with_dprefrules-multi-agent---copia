@@ -132,8 +132,8 @@ public class ExamplesLoadPanel extends JPanel {
 			}
 		});
 		
-		JButton loadButtonM = new JButton("M");
-		loadButtonM.addActionListener(new ActionListener() {
+		JButton loadButtonNew = new JButton("New");
+		loadButtonNew.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				scout = new Scout();
 				MainWindow frame = new MainWindow(scout);
@@ -192,7 +192,7 @@ public class ExamplesLoadPanel extends JPanel {
 		gbc_btn6.insets = new Insets(5, 0, 5, 5);
 		gbc_btn6.gridx = 6;
 		gbc_btn6.gridy = 0;
-		container.add(loadButtonM, gbc_btn6);
+		container.add(loadButtonNew, gbc_btn6);
 		
 		JSeparator separator = new JSeparator();
 		add(separator, BorderLayout.SOUTH);
