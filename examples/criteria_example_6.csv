@@ -1,4 +1,2 @@
 criterion;values
-days;between(0,30)
-entrmnt;[ThcD,vbad,bad,reg,good,vgood]
-service;[RyrT,vbad,bad,reg,good,vgood]
+velocidad;[spuu,baja,media,alta]
