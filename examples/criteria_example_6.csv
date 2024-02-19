@@ -1,0 +1,5 @@
+criterion;values
+complejidad;[oedi,alta,media,baja]
+tiempo;between(7,1)
+gradodeaceptacion;[awfc,bajo,medio,alto]
+porciones;between(7,15)
