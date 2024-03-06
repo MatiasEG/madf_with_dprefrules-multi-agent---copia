@@ -5,7 +5,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import IOmanager.CSVreader;
-import IOmanager.CSVwriter;
 import IOmanager.FileChooser;
 import dataManager.DataManager;
 import dataManager.Priority;
@@ -43,7 +42,6 @@ public class PrefRulePreferencesFrame extends JFrame {
 	private JComboBox<String> comboBoxWorst;
 	
     private JButton btnLoadRulePreferencesFromFiles;
-    private JButton btnSaveRulePreferenes;
     private JButton btnAddPriority;
     private JButton btnDeletePriority;
     private JButton btnSave;
@@ -86,16 +84,9 @@ public class PrefRulePreferencesFrame extends JFrame {
 		Component verticalStrut_5 = Box.createVerticalStrut(20);
 		contentPane.add(verticalStrut_5);
 		
-		JPanel panel = new JPanel();
-		contentPane.add(panel);
-		
 		btnLoadRulePreferencesFromFiles = new JButton("Cargar archivo de preferencias");
-		panel.add(btnLoadRulePreferencesFromFiles);
+		contentPane.add(btnLoadRulePreferencesFromFiles);
 		btnLoadRulePreferencesFromFiles.setAlignmentX(Component.CENTER_ALIGNMENT);
-		
-		btnSaveRulePreferenes = new JButton("Guardar archivo de preferencias");
-		panel.add(btnSaveRulePreferenes);
-		btnSaveRulePreferenes.setAlignmentX(Component.CENTER_ALIGNMENT);
 		
 		Component verticalStrut = Box.createVerticalStrut(20);
 		contentPane.add(verticalStrut);
@@ -235,12 +226,6 @@ public class PrefRulePreferencesFrame extends JFrame {
 				viewOnlyMod(true);
 			}
 		});
-		btnSaveRulePreferenes.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				CSVwriter.saveRulePriorityToCSV(PrefRulePreferencesFrame.this.data);
-				JOptionPane.showMessageDialog(null, "Datos validados y guardados, ya puede cerrar esta ventana", "Guardado exitoso", JOptionPane.INFORMATION_MESSAGE);
-			}
-		});
 	}
 	
 	private void viewOnlyMod(boolean viewOnly) {
@@ -250,7 +235,6 @@ public class PrefRulePreferencesFrame extends JFrame {
 			comboBoxWorst.setEnabled(false);
 			
 		    btnLoadRulePreferencesFromFiles.setEnabled(false);
-		    btnSaveRulePreferenes.setEnabled(false);
 		    btnAddPriority.setEnabled(false);
 		    btnDeletePriority.setEnabled(false);
 		}
