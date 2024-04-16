@@ -1,4 +1,4 @@
 criterion;values
+passengers;between(0,+inf)
 urgency;[none,low,medium,high,critical]
-order;between(+inf,0)
-passengers;between(0,40)
+arrival;between(+inf,0)

@@ -1,6 +1,6 @@
 priority_order
-ambulance > publicTransport
+ambulance > bus
 ambulance > taxi
-policeCar > publicTransport
+policeCar > bus
 policeCar > taxi
-publicTransport > taxi
+bus > taxi

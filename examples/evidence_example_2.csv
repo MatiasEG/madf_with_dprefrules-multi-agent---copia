@@ -1,6 +1,5 @@
-alternative;days;entrmnt;service
-mntns;14;reg;vbad
-beach;11;good;vgood
-lake;20;bad;good
-jungle;14;reg;vgood
-cruise;10;good;good
+alternative;urgency;arrival;passengers
+taxi;none;1;0
+police;medium;3;4
+ambulance;low;2;2
+bus;low;4;3

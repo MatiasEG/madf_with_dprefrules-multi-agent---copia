@@ -1,5 +1,5 @@
 agent;importance_order
-policeCar;r1 > r2, r3 > r2, r7 > r1, r5 > r3
+police;r1 > r2, r3 > r2, r7 > r1, r5 > r3
 taxi;r2 > r3, r4 > r2
 ambulance;r1 > r2, r2 > r3, r6 > r1, r7 > r1
-publicTransport;r3 > r2, r5 > r3
+bus;r3 > r2, r5 > r3
