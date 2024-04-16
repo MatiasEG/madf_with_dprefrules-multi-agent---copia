@@ -1,5 +1,5 @@
 criterion;values
-complejidad;[ifyf,alta,media,baja]
+complejidad;[enrn,alta,media,baja]
 tiempo;between(7,1)
-gradodeaceptacion;[yyku,bajo,medio,alto]
+gradodeaceptacion;[deas,bajo,medio,alto]
 porciones;between(7,15)

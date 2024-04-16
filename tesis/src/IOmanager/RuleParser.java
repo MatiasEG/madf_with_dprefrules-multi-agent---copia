@@ -192,6 +192,7 @@ public class RuleParser {
 		Matcher matcher = pattern.matcher(conditions[index]);
 		System.out.println("5 --> "+rule.toString());
 		matcher.find();
+		
         String maxCriteriaName = matcher.group(2).toLowerCase();
         String maxValueString = matcher.group(3).toLowerCase();
         
