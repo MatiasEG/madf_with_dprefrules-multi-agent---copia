@@ -1,5 +1,5 @@
-alternative;urgency;arrival;passengers
-taxi;none;5;3
-police;high;2;0
-ambulance;high;3;1
-bus;medium;1;10
+alternative;passengers;urgency;arrival
+taxi;3;none;5
+police;0;high;2
+ambulance;1;high;3
+bus;10;medium;1
