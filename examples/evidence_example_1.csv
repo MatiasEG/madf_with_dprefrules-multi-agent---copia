@@ -1,6 +1,6 @@
 alternative;passengers;urgency;arrival
-taxi1;3;none;5
-police1;0;medium;2
-bus1;10;low;1
-ambulance1;1;medium;3
-bus2;0;none;4
+taxi1;3;none;9
+police1;0;medium;4
+bus1;10;low;5
+ambulance1;1;medium;5
+bus2;0;none;8
