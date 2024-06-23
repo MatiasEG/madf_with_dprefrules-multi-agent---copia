@@ -1,5 +1,0 @@
-criterion;values
-complejidad;[enrn,alta,media,baja]
-tiempo;between(7,1)
-gradodeaceptacion;[deas,bajo,medio,alto]
-porciones;between(7,15)

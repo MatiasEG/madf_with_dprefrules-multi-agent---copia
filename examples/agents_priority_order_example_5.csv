@@ -1,6 +1,0 @@
-priority_order
-ambulances > buses
-ambulances > taxis
-police > buses
-police > taxis
-buses > taxis
